@@ -1,0 +1,46 @@
+{
+    "downfall": 0.3,
+    "precipitation": "none",
+    "temperature": 0.6,
+    "temperature_modifier": "none",
+    "creature_spawn_probability": 0.1,
+    "carvers": {},
+    "category": "plains",
+    "effects": {
+        "fog_color": 0,
+        "sky_color": 2563894,
+        "water_color": 2563948,
+        "water_fog_color": 2576449,
+        "grass_color": 1779807,
+        "grass_color_modifier": "dark_forest",
+        "foliage_color": 1786207,
+        "particle": {
+            "options": {
+                "type": "minecraft:mycelium"
+            },
+            "probability": 0.1
+        }
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "spawners": {
+        "ambient": [
+            {
+                "type": "minecraft:illusioner",
+                "weight": 1,
+                "maxCount": 2,
+                "minCount": 1
+            }
+        ]},
+    "spawn_costs": {}
+}

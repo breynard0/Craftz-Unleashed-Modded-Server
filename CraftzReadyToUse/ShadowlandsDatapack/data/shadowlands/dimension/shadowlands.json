@@ -1,0 +1,62 @@
+{
+    "type": "shadowlands:shadowlands",
+    "generator": {
+      "type": "minecraft:noise",
+      "seed": 1831585800,
+      "settings": "minecraft:overworld",
+      "biome_source": {
+        "type": "minecraft:multi_noise",
+        "biomes": [
+          {
+            "biome": "shadowlands:shadow_plains",
+            "parameters": {
+              "temperature": 0.4,
+              "humidity": 0.4,
+              "continentalness": 0.4,
+              "erosion": 0.4,
+              "weirdness": 0.45,
+              "depth": 0.4,
+              "offset": 0.0001
+            }
+          },
+          {
+            "biome": "shadowlands:dark_forest",
+            "parameters": {
+              "temperature": 0.4,
+              "humidity": 0.4,
+              "continentalness": 0.4,
+              "erosion": 0.4,
+              "weirdness": 0.4,
+              "depth": 0.4,
+              "offset": 0.1
+            }
+          },
+          {
+            "biome": "shadowlands:shattered_meadow",
+            "parameters": {
+              "temperature": 0.4,
+              "humidity": 0.4,
+              "continentalness": 0.4,
+              "erosion": 0.4,
+              "weirdness": 0.8,
+              "depth": 0.4,
+              "offset": 0.1
+            }
+          },
+          {
+            "biome": "shadowlands:statue_savannah",
+            "parameters": {
+              "temperature": 0.4,
+              "humidity": 0.4,
+              "continentalness": 0.4,
+              "erosion": 0.4,
+              "weirdness": 0.0025,
+              "depth": 0.4,
+              "offset": 0.5
+            }
+          }
+        ]
+      }
+    }
+  }
+  
