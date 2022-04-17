@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:fossil",
+    "config": {
+        "fossil_structures": [            
+            "shadowlands:shadow_statues/shadow_statue_1",
+            "shadowlands:shadow_statues/shadow_statue_2",
+            "shadowlands:shadow_statues/shadow_statue_3",
+            "shadowlands:shadow_statues/shadow_statue_4"
+        ],
+        "fossil_processors": {
+            "processors": [
+                {
+                    "processor_type": "minecraft:blackstone_replace"
+                }
+            ]
+        },
+        "max_empty_corners_allowed": 7,
+        "overlay_processors": {
+            "processors": [
+                {
+                    "processor_type": "minecraft:blackstone_replace"
+                }
+            ]
+        },
+        "overlay_structures": [
+            "shadowlands:shadow_statues/shadow_statue_1",
+            "shadowlands:shadow_statues/shadow_statue_2",
+            "shadowlands:shadow_statues/shadow_statue_3",
+            "shadowlands:shadow_statues/shadow_statue_4"
+        ]
+    }
+}

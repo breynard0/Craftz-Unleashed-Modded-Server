@@ -1,0 +1,73 @@
+{
+    "feature": {
+        "type": "minecraft:fossil",
+        "config": {
+            "fossil_structures": [            
+                "shadowlands:shadow_statues/shadow_statue_1",
+                "shadowlands:shadow_statues/shadow_statue_2",
+                "shadowlands:shadow_statues/shadow_statue_3",
+                "shadowlands:shadow_statues/shadow_statue_4"
+            ],
+            "fossil_processors": {
+                "processors": [
+                    {
+                        "processor_type": "minecraft:gravity",
+                        "heightmap": "OCEAN_FLOOR_WG",
+                        "offset": 0
+                    }
+                ]
+            },
+            "max_empty_corners_allowed": 7,
+            "overlay_processors": {
+                "processors": [
+                    {
+                        "processor_type": "minecraft:gravity",
+                        "heightmap": "OCEAN_FLOOR_WG",
+                        "offset": 0
+                    }
+                ]
+            },
+            "overlay_structures": [
+                "shadowlands:shadow_statues/shadow_statue_1",
+                "shadowlands:shadow_statues/shadow_statue_2",
+                "shadowlands:shadow_statues/shadow_statue_3",
+                "shadowlands:shadow_statues/shadow_statue_4"
+            ]
+        }
+    },
+    "placement": [
+        {
+            "type": "height_range",
+            "height": {
+                "type": "constant",
+                "value": {
+                    "absolute": 120
+                }
+            }
+        },
+        {
+            "type": "biome"
+        },
+        {
+            "type": "height_range",
+            "height": {
+                "type": "constant",
+                "value": {
+                    "absolute": 120
+                }
+            }
+        },
+        {
+            "type": "block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:not",
+                "predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                        "water"
+                    ]
+                }
+            }
+        }
+    ]
+}

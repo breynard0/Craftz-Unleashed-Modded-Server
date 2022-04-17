@@ -1,0 +1,2 @@
+execute as @a[predicate=shadowlands:checkdimension, predicate=shadowlands:shadowlandsheight] run function shadowlands:overworldtp
+execute as @a[predicate=shadowlands:checkoverworld, predicate=shadowlands:overworldheight] run function shadowlands:shadowlandstp

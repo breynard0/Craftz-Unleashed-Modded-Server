@@ -1,0 +1,15 @@
+{
+    "name": "shadowlands:temple",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "shadowlands:shadowtemple"
+            },
+            "weight": 1
+        }
+    ]
+}

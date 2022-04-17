@@ -1,0 +1,4 @@
+name: ModdedServerMagmaBoss
+version: '${project.version}'
+main: craftz.magmaboss.moddedservermagmaboss.ModdedServerMagmaBoss
+api-version: 1.18

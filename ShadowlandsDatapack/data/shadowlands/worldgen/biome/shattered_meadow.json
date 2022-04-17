@@ -1,0 +1,51 @@
+{
+    "downfall": 0.3,
+    "precipitation": "none",
+    "temperature": 0.6,
+    "temperature_modifier": "none",
+    "creature_spawn_probability": 0.1,
+    "carvers": {
+        "air": [
+            "shadowlands:crevasse"
+        ]
+    },
+    "category": "plains",
+    "effects": {
+        "fog_color": 0,
+        "sky_color": 2563894,
+        "water_color": 0,
+        "water_fog_color": 0,
+        "grass_color": 2564898,
+        "grass_color_modifier": "dark_forest",
+        "foliage_color": 1786207,
+        "particle": {
+            "options": {
+                "type": "minecraft:mycelium"
+            },
+            "probability": 0.1
+        }
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:glow_lichen",
+            "minecraft:patch_tall_grass_2",
+            "minecraft:trees_plains",
+            "minecraft:flower_plains",
+            "minecraft:patch_grass_plain",
+            "minecraft:brown_mushroom_normal",
+            "minecraft:red_mushroom_normal",
+            "minecraft:patch_sugar_cane",
+            "minecraft:patch_pumpkin"],
+        []
+    ],
+    "spawners": {},
+    "spawn_costs": {}
+}

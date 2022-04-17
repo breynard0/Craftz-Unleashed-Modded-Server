@@ -1,0 +1,86 @@
+{
+    "feature": {
+        "type": "tree",
+        "config": {
+            "trunk_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:dark_oak_wood",
+                    "Properties": {}
+                }
+            },
+            "trunk_placer": {
+                "base_height": 20,
+                "height_rand_a": 4,
+                "height_rand_b": 4,
+                "type": "minecraft:bending_trunk_placer",
+                "bend_length": 1,
+                "min_height_for_leaves": 15
+            },
+            "minimum_size": {
+                "type": "minecraft:three_layers_feature_size",
+                "limit": 7,
+                "lower_size": 10,
+                "middle_size": 5,
+                "upper_size": 8,
+                "upper_limit": 5,
+                "min_clipped_height": 80
+            },
+            "ignore_vines": true,
+            "force_dirt": true,
+            "dirt_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:soul_sand"
+                }
+            },
+            "foliage_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:dark_oak_leaves",
+                    "Properties":{
+                        "Persistent":"true"
+                    }
+                }
+            },
+            "foliage_placer": {
+                "type": "minecraft:spruce_foliage_placer",
+                "radius": 16,
+                "foliage_height": 8,
+                "leaf_placement_attempts": 64,
+                "offset": 1,
+                "trunk_height": 20
+            },
+            "decorators": [
+                {
+                    "type": "minecraft:alter_ground",
+                    "provider": {
+                        "type": "minecraft:simple_state_provider",
+                        "state": {
+                            "Name": "minecraft:soul_soil"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    
+    "placement": [
+        {
+            "type": "count_on_every_layer",
+            "count": 120
+        },
+        {
+            "type": "block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:would_survive",
+                "state": {
+                    "Name": "minecraft:oak_sapling"
+                }
+            }
+        },
+        {
+            "type": "biome"
+        }
+    ]
+}

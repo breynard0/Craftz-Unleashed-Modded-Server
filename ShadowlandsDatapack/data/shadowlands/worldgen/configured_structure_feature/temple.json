@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:village",
+    "config": {
+        "start_pool": "shadowlands:temple",
+        "size": 1
+    },
+    "biomes": [
+        "shadowlands:dark_forest",
+        "shadowlands:shadow_plains",
+        "shadowlands:shattered_meadow",
+        "shadowlands:statue_savannah"
+    ],
+    "adapt_noise": true,
+    "spawn_overrides": {}
+}

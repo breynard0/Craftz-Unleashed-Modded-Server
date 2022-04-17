@@ -1,0 +1,9 @@
+name: Shadowlands
+version: '${project.version}'
+main: craftz.shadowlands.Shadowlands
+api-version: 1.18
+authors: [ Siliwolf ]
+commands:
+  overlord:
+    permission: op
+    usage: /overlord

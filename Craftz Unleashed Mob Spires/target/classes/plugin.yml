@@ -1,0 +1,13 @@
+name: MobSpires
+version: '1.0-SNAPSHOT'
+main: craftz.mobspires.mobspires.MobSpires
+api-version: 1.18
+commands:
+    mobspireitems:
+      description: Gets a mob spire item
+      usage: /mobspireitems
+      permission: op
+    spawnboss:
+      description: Spawn a mob spire boss
+      usage: /spawnboss
+      permission: op
